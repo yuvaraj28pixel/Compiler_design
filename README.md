@@ -7,8 +7,10 @@ Project has the following phases:
 3) Intermediate Code Generation
 4) Code Optimization
 
-  - Common Subexpression Elimination
-  - Constant Folding and Propagation
+     - Common Subexpression Elimination
+     - Constant Folding and Propagation
+
+
   
 
 Note: 
