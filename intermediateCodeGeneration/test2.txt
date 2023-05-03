@@ -1,0 +1,63 @@
+DECLARE ..--. a,b,c,d;
+
+MAIN
+$
+
+   ..-..(a -.-. c ---- b -.-. c ---. c -..- d)
+   $
+      SET a AS b .-- c -.- d -.- (-c);       
+   $
+
+   DECLARE ..--. i, total;
+   SET total AS 10;
+
+   ...--( SET i AS 20; i -..- 10; SET i AS i --. 1 )
+   $
+      SET total AS total -.- i; 
+   $
+
+   DECLARE ..--. result;
+   ....-(a -.-. total)
+   $
+      SET result AS 1;
+   $
+   ...-.
+   $
+      SET result AS 0;
+   $
+
+   
+$
+
+
+/*
+DECLARE real a,b,c,d;
+
+MAIN
+$
+
+   while(a < c && b < c || c > d)
+   $
+       a=b/c*d*(-c); 
+   $
+
+   DECLARE real i, total;
+   SET total AS 10;
+   for(SET i AS 20; i > 10; SET i AS i - 1 )
+   $
+      SET total AS total * i; 
+   $
+
+   DECLARE real result;
+   if(a > total)
+   $
+      SET result AS 1;
+   $
+   else
+   $
+      SET result AS 0;
+   $
+
+   
+$
+*/

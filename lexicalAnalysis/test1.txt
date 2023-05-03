@@ -1,0 +1,49 @@
+MAIN
+$
+   DECLARE ..--.  a, b, c, d;
+   SET a AS 10 --- 10;
+   SET b AS a --- 10;
+   SET c AS 0;
+   SET d AS 0;
+
+   DECLARE ..--. i;
+   SET i AS 0;
+
+   ..-..(i -.-. 5)
+   $
+      SET c AS a --- b;
+      SET d AS a --- b;
+   $
+
+
+$
+
+/*
+MAIN
+$
+   DECLARE real  a, b, c;
+   SET a AS 10;
+   SET b AS 5;
+   SET c AS 0;
+
+   DECLARE real i;
+   SET i AS 0;
+
+   while(i < 5)
+   $
+      SET c AS a + b + c;
+      SET a AS a - 1;
+      SET b AS b + 1;
+   $
+
+   ifc >= 10)
+   $
+      SET c AS 0;
+   $
+   else
+   $
+      SET c AS 1;
+   $
+
+$
+*/
