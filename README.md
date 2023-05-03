@@ -10,7 +10,10 @@ Project has the following phases:
 Note: 
 Run the build.sh file in terminal to execute the code in each folder.
 
-To give permission to run build.sh file:\n
+To give permission to run build.sh file:
+
 chmod +x build.sh
-To execute:\n
+
+To execute:
+
 ./build.sh
