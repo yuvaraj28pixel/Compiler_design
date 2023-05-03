@@ -9,6 +9,7 @@ Project has the following phases:
 
   - Common Subexpression Elimination
   - Constant Folding and Propagation
+  
 
 Note: 
 Run the build.sh file in terminal to execute the code in each folder.
