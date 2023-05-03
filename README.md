@@ -7,6 +7,9 @@ Project has the following phases:
 3) Intermediate Code Generation
 4) Code Optimization
 
+  - Common Subexpression Elimination
+  - Constant Folding and Propagation
+
 Note: 
 Run the build.sh file in terminal to execute the code in each folder.
 
